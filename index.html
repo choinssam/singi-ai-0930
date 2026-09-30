@@ -341,7 +341,7 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 </table>
 <p>생각의 깊이는 “단계별로 생각해” 대신 입력창의 <b>추론 깊이</b>로 정합니다. 요청문에는 무엇을, 왜, 어떻게 확인할지를 씁니다. <span class="muted">(OpenAI 추론 모델 가이드: Avoid chain-of-thought prompts · Try zero shot first)</span></p>
 
-<h3 id="tips">제가 실제로 쓰는 요령</h3>
+<h3 id="tips">제가 실제로 쓰는 요령 여섯 가지</h3>
 <h4>01 내 수준을 밝혀라</h4>
 <p>“난 비개발자 초보자야” 한 줄이면 설명의 깊이가 달라지고, 내가 해야 할 일이 생길 때 멈춰서 알려 줍니다.</p>
 <blockquote>“1. vinext란? 2. Next.js API란? 우선 Next.js가 무엇인지도 모르겠음”<br>“내가 결정해야 될 사항은 내가 충분히 이해할 수 있게 설명하고 선택지를 제시해”</blockquote>
@@ -354,14 +354,14 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 <h4>04 여러 가지 안을 먼저 받아라</h4>
 <p>서로 다른 안을 나란히 놓고 번호로 고른 뒤, ‘다만’으로 하나를 덧붙여 다듬습니다. 디자인·그림체처럼 정답이 없는 것에 씁니다.</p>
 <blockquote>“서로 다른 다섯 가지 안을 제시해봐. 내가 가장 내 의도가 부합하는 것을 선택을 해 줄게”<br>“2안 좋다. 다만 기분기록과, 목표 세우기는 왜 빠졌지?”</blockquote>
-<h4>05 목표를 제시하라</h4>
-<p>방법을 하나하나 지시하기보다 끝났다고 볼 기준을 말합니다. 정하기 어려우면 AI에게 “완성되면 어떤 모습일지 먼저 설명해 줘”라고 묻고 그걸 고칩니다.</p>
-<h4>06 예시를 제공하라</h4>
+<h4>05 예시를 제공하라</h4>
 <p>말로 설명하기 어려운 것은 보여 줍니다. 캡처에 네모를 그려 붙이고, 움직임은 녹화하고, 전에 만든 것을 본보기로 가리킵니다.</p>
 <blockquote>“https://canvas.apps.chrome/ 여기처럼 아주 심플하고 직관적인 UXUI를 원한다”</blockquote>
-<h4>07 참고할 자료를 지정하라</h4>
+<h4>06 참고할 자료를 지정하라</h4>
 <p>실제 자료, 현장의 원문, 공식 문서를 콕 집으면 지어낸 답이 줄어듭니다. 과학·역사 도구는 ‘실제 자료만, 출처 표시’.</p>
 <blockquote>“교육과정 원문, 교육부, KERIS, 과학창의재단 공식 문서 및 자료집을 참고해.”</blockquote>
+
+<div class="note">여섯 가지를 네 줄에 담은 <a href="#card">어디에나 쓰는 요청 틀</a>은 실습 절에 있습니다. 네 줄은 꼭 쓰고, 나머지는 필요할 때 한 줄씩 더합니다.</div>
 
 <h3 id="goal">/goal · 목표를 주면 끝날 때까지</h3>
 <p><code>/goal</code> 뒤에 목표를 적으면 Codex가 계획하고, 하고, 확인하고, 고치기를 스스로 되풀이합니다. 확인할 방법이 분명한 긴 일에 씁니다.</p>
@@ -458,7 +458,7 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 <li><b>고치기</b> · 적은 곳을 그대로 Codex에게 줍니다.</li>
 </ol>
 
-<h3 id="card">요청 틀</h3>
+<h3 id="card">어디에나 쓰는 요청 틀</h3>
 <div class="prompt"><span class="label">꼭 쓰는 네 줄</span><button class="copy">복사</button><pre>나는 [5학년 담임]이고 코딩은 몰라.
 [무엇]을 만들어 줘. [불편한 점] 때문에 필요해.
 [누가] [어디서] 써.
